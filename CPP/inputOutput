@@ -1,0 +1,17 @@
+# 입출력 I/O
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+int a;
+int main() {
+  cin >> a;
+  scanf("%d", &a);
+  return 0;
+}
+```
+
+`cin` : 개행문자 직전까지 입력을 받는다.
+
+`int scanf (const char * format, ...)`
+
