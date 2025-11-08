@@ -65,7 +65,7 @@ int main() {
   // string s;
 
   // cin >> T;
-  // string burrerflush;
+  // string bufferflush;
   // getline(cin, bufferflush);  // 버퍼의 개행문자를 없애기 위함
 
   // for (int i = 0; i < T; i++) {
