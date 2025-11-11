@@ -105,7 +105,7 @@ public int method(int a) {
 
 ```java
 public Person() {
-  this(name, age);  // 'this'는 생성자의 첫줄에 있어야함
+  this(name, age);  // 'this()'는 생성자의 첫줄에 있어야함
   this.address = address;
 }
 

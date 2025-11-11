@@ -7,7 +7,7 @@ public class Child extends Parent {}
 
 ```
 
-### `extends`
+### `extends` 키워드
 - **"확장하다"** 라는 뜻에 집중하면 더 이해하기 쉽다.
 - 기존 기능에 더해 자식 클래스에서 기능을 확장한다는 의미
 
@@ -33,3 +33,11 @@ class Parent {
 3. private 멤버는 상속은 되지만 접근 X
 
 - getter/setter 통해서 접근
+
+---
+
+### `super()`
+자식 클래스에서 부모 클래스의 **생성자 호출**
+
+- `super` : 부모 인스턴스에 대한 **참조** 변수
+- `thils` : 인스턴스 자신에 대한 참조 변수
