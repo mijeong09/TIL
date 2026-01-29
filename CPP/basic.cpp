@@ -75,7 +75,8 @@ int main() {
 
 
   // output
-
+  double a = 1.23456789;
+  cout << fixed << setprecision(3) << a;
 
   // 함수 종료
   return 0;
